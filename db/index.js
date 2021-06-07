@@ -49,7 +49,7 @@ module.exports = {
                 return await users.findOne({ token });
             }
         }
-        return 'hello';
+        return null;
     },
     // listing
     //
